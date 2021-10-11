@@ -90,7 +90,7 @@ const Footer = () => {
           </Col>
         </Row>
       </div>
-      <div className="credit">© 2021 LiLia Sekai Team • Make by Love •</div>
+      <div className="credit">© 2021 LiLia Sekai Team • Made by Love •</div>
     </footer>
   );
 };

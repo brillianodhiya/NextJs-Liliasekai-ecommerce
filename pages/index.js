@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { BackTop, Button } from "antd";
 import Footer from "../Modules/Footer";
+import Header from "../Modules/Header";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="description" content="LiLia Sekai Shopping Platform" />
         <link rel="icon" href="/lilia_logo2.png" />
       </Head>
-
+      <Header />
       <main className={styles.main}>
         <Button>TEST</Button>
       </main>

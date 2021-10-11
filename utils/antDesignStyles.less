@@ -2,12 +2,12 @@
 @import "~antd/dist/antd.less";
 
 @font-face {
-  src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-  font-family: 'Quicksand', cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+  font-family: "Quicksand", cursive;
 }
 
 * {
-  font-family: 'Quicksand', cursive;
+  font-family: "Quicksand", cursive;
 }
 
 .footer .credit {
@@ -52,6 +52,70 @@
   color: goldenrod;
   font-weight: 500;
   font-size: 16px;
+}
+
+.header-menus {
+  padding: 10px 24px;
+  background: #fff;
+}
+
+.header-menus ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+  background: #fff;
+}
+
+.header-menus ul li {
+  padding: 10px;
+  float: left;
+  margin-top: 24px;
+}
+
+.header-menus ul li a {
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: #000;
+  font-size: medium;
+}
+
+.header-menus ul li:last-child {
+  border-right: none;
+}
+
+.header-menus ul li:first-child {
+  margin-top: 0;
+}
+
+.header-menus ul li:first-child a {
+  padding: 0;
+}
+
+.header-menus ul .active a {
+  background: #1890ff;
+  color: #fff;
+}
+
+.header-menus ul .active a:hover {
+  background: #3bb0ff;
+}
+
+.header-menus ul li a:hover,
+.header-menus ul li a:focus {
+  background: #f7f7f7;
+}
+
+.header-menus ul li:first-child a:hover {
+  background: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .header-menus ul {
+    display: none;
+  }
 }
 
 @primary-color: #000; // primary color for all components
