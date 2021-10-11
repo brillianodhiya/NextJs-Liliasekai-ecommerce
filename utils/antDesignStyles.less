@@ -112,8 +112,14 @@
   background: #fff;
 }
 
-@media screen and (max-width: 768px) {
-  .header-menus ul {
+@media screen and (max-width: 576px) {
+  .not-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .header-menus-mobile {
     display: none;
   }
 }

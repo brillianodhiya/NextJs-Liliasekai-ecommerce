@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import { BackTop, Button } from "antd";
 import Footer from "../Modules/Footer";
 import Header from "../Modules/Header";
+import HeaderMobile from "../Modules/HeaderMobile";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/lilia_logo2.png" />
       </Head>
       <Header />
+      <HeaderMobile />
       <main className={styles.main}>
         <Button>TEST</Button>
       </main>

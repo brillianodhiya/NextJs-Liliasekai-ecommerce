@@ -46,7 +46,7 @@ const Header = () => {
   );
 
   return (
-    <div className="header-menus">
+    <div className="header-menus not-mobile">
       <ul>
         <li>
           <a href="/">
