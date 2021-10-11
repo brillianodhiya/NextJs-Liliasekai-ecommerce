@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { Button, Dropdown, Menu } from "antd";
-import { HomeOutlined } from "@ant-design/icons";
+import { Dropdown, Menu } from "antd";
+import { HomeOutlined, AppstoreOutlined } from "@ant-design/icons";
 
 const Header = () => {
   const menud = (
@@ -65,11 +65,13 @@ const Header = () => {
         </li>
         <li>
           <Dropdown overlay={menud} trigger={["click", "hover"]}>
-            <a onClick={() => console.log("CLICK MENU")}>Menu</a>
+            <a onClick={() => console.log("CLICK MENU")}>
+              <AppstoreOutlined /> Menu
+            </a>
           </Dropdown>
         </li>
         <li>
-          <a href="/events">Events</a>
+          <a href="/events">✨ Events</a>
         </li>
         <li style={{ float: "right" }}>
           <a href="/login">Login / Register</a>
