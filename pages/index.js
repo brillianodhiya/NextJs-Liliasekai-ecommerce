@@ -4,6 +4,7 @@ import { BackTop, Button } from "antd";
 import Footer from "../Modules/Footer";
 import Header from "../Modules/Header";
 import HeaderMobile from "../Modules/HeaderMobile";
+import Banner from "../Components/Banner";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <Header />
       <HeaderMobile />
       <main className={styles.main}>
-        <Button>TEST</Button>
+        <Banner />
       </main>
       <BackTop />
       <Footer />
